@@ -1,0 +1,53 @@
+body {
+  background-color: #101010;
+  color: #F6F1F1;
+}
+
+.cronometro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #146C94;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: lora, "serif";
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: 2px 2px 3px #000;
+}
+
+.central {
+  /* background-color: #101010; */
+  max-width: 200px;
+  margin: 0px auto;
+}
+
+.central span {
+  font-family: Fira Code, "monospace";
+  width: 200px;
+  letter-spacing: 1px;
+}
+
+#seconds {
+  font-size: 3rem;
+}
+
+#tens {
+  font-size: 2rem;
+}
+
+button {
+  /* tam/form/esp/cor */
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 6px;
+  box-shadow: 2px 2px 3px #000;
+  background-color: #19A7CE;
+  /* tipografia */
+  color: #F6F1F1;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+}
